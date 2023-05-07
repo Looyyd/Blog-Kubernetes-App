@@ -17,7 +17,8 @@ app.get('/top-tweets', async (req, res) => {
       SELECT * FROM tweets
       WHERE type != 'retweet'
       AND created_at >= NOW() - INTERVAL '1 month'
-      ORDER BY favorite_count DESC;
+      ORDER BY favorite_count DESC
+      LIMIT 3;
     `);
 
     res.json(rows);
