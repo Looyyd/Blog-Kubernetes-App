@@ -28,4 +28,4 @@ jobs:
         with:
           context: ./fetchTweets
           push: true
-          tags: loydblogregistry.azurecr.io/blog/fetchTweets:latest
+          tags: loydblogregistry.azurecr.io/blog/fetchtweets:latest

@@ -28,4 +28,4 @@ jobs:
         with:
           context: ./selectTopTweets
           push: true
-          tags: loydblogregistry.azurecr.io/blog/selectTopTweets:latest
+          tags: loydblogregistry.azurecr.io/blog/selecttoptweets:latest
