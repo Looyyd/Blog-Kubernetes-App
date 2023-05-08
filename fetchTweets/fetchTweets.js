@@ -41,6 +41,7 @@ async function fetchLatestTweets() {
     process.exit(1);
   }
 
+  //actor is scheduled to run daily
   const url = `https://api.apify.com/v2/acts/quacker~twitter-scraper/runs/last/dataset/items?token=${APIFLY_TOKEN}`;
 
   try {
